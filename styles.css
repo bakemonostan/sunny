@@ -35,7 +35,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #3ebfff;
-  height: 100vh;
+  height: 60vh;
   max-width: auto;
 }
 
@@ -200,6 +200,9 @@ p {
 }
 
 @media (min-width: 770px) {
+  header {
+    height: 70vh;
+  }
   .section-one {
     max-width: auto;
     display: grid;
