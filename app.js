@@ -6,4 +6,3 @@ menu.addEventListener('click', dropDown);
 function dropDown() {
   navMenu.classList.toggle('display');
 }
-console.log(navMenu);
